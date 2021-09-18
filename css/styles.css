@@ -53,7 +53,7 @@ p{
 .top-container{
     position: relative;
     padding-top: 100px;
-    background-color: #eaf6f6;
+    background-color: #124f4f;
 }
 .middle-container{
     color: #40514E;
@@ -68,7 +68,6 @@ p{
 .projects{
     width: 80%;
     margin: auto;
-    padding: 40px;
 }
 .project-list .row{
     margin: 25px;
@@ -186,7 +185,7 @@ go on top!!*/
     font-size: 1rem;
  }
  .copyright{
-   
+    margin-top: 25px;
     font-size: .7rem;
     color: whitesmoke;
  }
