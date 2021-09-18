@@ -1,0 +1,205 @@
+/* NOTES:
+outside to inside: margin,border,padding,element 
+Display: block, inline, inline-block, none
+common BLOCK Elements: p,h1-h6,div,ol,ul,li,forms...
+common INLINE Elements: span, a, img(inline-block)....
+Position-
+ static:default
+ relative: top,bottom,left,right(moves relative to its OLD position)
+    everything else stays the stay
+ absolute: top,bottom,left,right(moves relative to its PARENTS position)
+    everything else changes accordingly
+ fixed: top,bottom,left,right(moves relative to its PARENTS position)
+    everything stays the same but the purpose is to keep the selected element
+    in the same spot as you scroll thru the page(up and down, left and right)
+font-size: px -static, em,% - dynamic
+* % and em will inherit its parent's size and then add on to its own size, a way around
+  would be to use REM instead!(USING rem IS A GOOD PRACTICE)
+* px - will remain the same
+float and clear: float wraps text around image, clear negates it("Anti-float")
+*/ 
+
+body{
+    margin:0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 120%;
+}
+h1{
+    margin: 50px auto 0px auto;
+    font-family: "sacramento", cursive;
+    /* 100% = 16px for fonts*/ 
+    font-size: 5.526rem;
+    color: #66BFBF;
+    
+    
+}
+h2{
+    font-family: 'montserrat', serif;
+    font-size: 2rem;
+    color:#66BFBF;
+    font-weight: normal;
+    padding: 20px;
+
+}
+h3{
+    font-family: "montserrat", serif;
+    color: #11999E;
+    font-size: 1.25rem;
+}
+p{
+    line-height: 2;
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #eaf6f6;
+}
+.middle-container{
+    color: #40514E;
+    margin: 100px 0;
+    
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+
+.projects{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+.project-list .row{
+    margin: 25px;
+}
+
+hr{
+    border-style: dotted;
+    border-width: 8px 0 0 0;
+    width: 20%;
+    margin: 75px auto;
+    
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.me{
+    border-radius: 50%;
+    width: 25%;
+}
+
+.project-img{
+    border-radius: 50%;
+    width: 25%;
+
+}.p-des{
+    margin-bottom: 50px;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+.train{
+    display:block;
+    color:#66BFBF;
+    font-family: "montserrat", serif;
+    font-size: 1rem;
+}
+
+/* PRACTICE: move cloud on top of mountain*/ 
+/* NOTE: If two elements are both "position: relative" then the latter will
+go on top!!*/ 
+.cloud1{
+    position:absolute;
+    top:50px;
+    right:450px;
+}
+.cloud2{
+    position:absolute;
+   
+    top: 500px;
+    left: 425px;
+}
+/* Button created and copied using cssbuttongenerator.com */ 
+.contact-btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.contact-btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, 30E3CB, 2BC4AD);
+    background-image: -moz-linear-gradient(top, 30E3CB, 2BC4AD);
+    background-image: -ms-linear-gradient(top, 30E3CB, 2BC4AD);
+    background-image: -o-linear-gradient(top, 30E3CB, 2BC4AD);
+    background-image: linear-gradient(to bottom, 30E3CB, 2BC4AD);
+    text-decoration: none;
+  }
+ .contact-me p{
+     width: 40%;
+     margin: 40px auto 60px;
+ }
+ .bottom-container{
+     background-color: #66BFBF;
+     padding: 20px; 
+ }
+
+ .bottom-container a{
+    color: #11999e;
+    text-decoration: none;
+    margin: 20px;
+    font-family: montserrat;
+    font-weight: bold;
+ }
+ .bottom-container a:hover{
+     color: white;
+ }
+ .bottom-container p{
+    font-size: 1rem;
+ }
+ .copyright{
+   
+    font-size: .7rem;
+    color: whitesmoke;
+ }
+
+ a{
+     text-decoration: none;
+     color: #11999e;
+ }
+
+ a img{
+     height: 100px;
+     width: auto;
+     margin: 30px;
+     border-radius: 30%;
+ }
+
