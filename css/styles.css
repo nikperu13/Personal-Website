@@ -53,7 +53,7 @@ p{
 .top-container{
     position: relative;
     padding-top: 100px;
-    background-color: #acdddd;
+    background-color: #91f5f8;
 }
 .middle-container{
     color: #40514E;
@@ -167,12 +167,12 @@ go on top!!*/
      margin: 40px auto 60px;
  }
  .bottom-container{
-     background-color: #66BFBF;
+     background-color: #6ac6c6;
      padding: 20px; 
  }
 
  .bottom-container a{
-    color: #11999e;
+    color: #19a3a7;
     text-decoration: none;
     margin: 20px;
     font-family: montserrat;
