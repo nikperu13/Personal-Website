@@ -16,7 +16,38 @@
 
 </head>
 <body>
+
+    
+  
     <div class ="top-container">
+
+       <!-- navbar -->
+     <nav class="navbar navbar-expand-lg nav">
+      <a class="navbar-brand nav-title"> Portfolio Site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#nav1">About Me<span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#nav2">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nav3">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nav4">Projects</a>
+          </li>
+
+         
+        </ul>
+      </div>
+    </nav>
+
         <img class="cloud1"src="images/cloud.png" alt="cloud-image">
         <h1>I'm Nicolas.</h1>
         <h2 class="subtitle">a <span class="pro">pro</span>grammer.</h2>
@@ -24,13 +55,13 @@
         <img class="mountain"src="images/mountain.png" alt="mountain-img">
     </div>
     <div class="middle-container">
-        <div class="profile">
+        <div id="nav1" class="profile">
           <img class="me"src="images/me.png" alt="me-img">
           <h2>Hello.</h2>
           <p class="intro">My name is Nicolas Garcia Rosell, from Lima, Peru currently in Orlando, Fl. I have found my passion in coding and wish to pursue my goals through the tech industry.</p>
         </div>
         <hr>
-        <div class="skills">
+        <div id="nav2" class="skills">
           <h2>My Skills.</h2>
           <div class="skill-row">
             <img class="skill1" src="images/coding.png" alt="coding-img">
@@ -45,7 +76,7 @@
           </div>
         </div>
         <hr>
-        <div class="contact-me">
+        <div id="nav3" class="contact-me">
           <h2>Get In Touch</h2>
           <h3>Come say hi.</h3>
           <p>Feel free to email my any questions!</p>
@@ -54,7 +85,7 @@
         <hr>
     </div>
         
-        <div class="projects">
+        <div id="nav4" class="projects">
           <img class="project-img"src="images/project.svg" alt="me-img">
           <h2>Projects</h2>
           <p class="intro p-des">My projects include using different technologies from front-end languages like HTML, CSS, JavaScript, alongside frameworks and libraries for back-end development and styling, like

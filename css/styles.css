@@ -50,9 +50,21 @@ h3{
 p{
     line-height: 2;
 }
+
+.nav{
+    font-family: "montserrat", serif;
+    font-size: 1.3rem;
+    margin: 5px 3%;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-title:hover{
+    color: white;
+}
 .top-container{
     position: relative;
-    padding-top: 100px;
+    padding-top: 10px;
     background-color: #b4eff2;
 }
 .middle-container{
@@ -126,7 +138,7 @@ hr{
 go on top!!*/ 
 .cloud1{
     position:absolute;
-    top:50px;
+    top:100px;
     right:450px;
 }
 .cloud2{
